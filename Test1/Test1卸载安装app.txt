@@ -1,19 +1,23 @@
-¹¦ÄÜ:
-1.Ğ¶ÔØthinkdrive
-2.°²×°thinkdrive
+ï»¿åŠŸèƒ½:
+1.å¸è½½thinkdrive
+2.å®‰è£…thinkdrive
 
 
 
-ÖªÊ¶µã: 
-1.µ¼ÈëĞèÒªµÄÄ£¿é
+çŸ¥è¯†ç‚¹: 
+1.å¯¼å…¥éœ€è¦çš„æ¨¡å—
 from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
 
-2.µÈ´ıÁ¬½Óµ½Éè±¸£¬ÓëÄ£ÄâÆ÷Á¬½Ó£¬·µ»Ømonkeydevice¶ÔÏó,´ú±íÁ¬½ÓµÄÉè±¸¡£Ã»ÓĞ±¨´íµÄ»°ËµÃ÷Á¬½Ó³É¹¦
-Ä¬ÈÏÁ¬½Ó£ºdevice = MonkeyRunner.waitForConnection()
-²ÎÊıÁ¬½Ó£ºdevice = MonkeyRunner.waitForConnection(1.0,'4df74b8734db307b')
+2.ç­‰å¾…è¿æ¥åˆ°è®¾å¤‡ï¼Œä¸æ¨¡æ‹Ÿå™¨è¿æ¥ï¼Œè¿”å›monkeydeviceå¯¹è±¡,ä»£è¡¨è¿æ¥çš„è®¾å¤‡ã€‚æ²¡æœ‰æŠ¥é”™çš„è¯è¯´æ˜è¿æ¥æˆåŠŸ
+é»˜è®¤è¿æ¥ï¼šdevice = MonkeyRunner.waitForConnection()
+å‚æ•°è¿æ¥ï¼šdevice = MonkeyRunner.waitForConnection(1.0,'4df74b8734db307b')
 
 
 
 
-ÎÊÌâ£º
-Ã»ÓĞ×öÒì³£´¦Àí
+é—®é¢˜ï¼š
+æ²¡æœ‰åšå¼‚å¸¸å¤„ç†
+
+
+Test1   ç¬¬ä¸€ä¸ªç‰ˆæœ¬ï¼Œå†™å…¥äº†ç»å¯¹è·¯å¾„
+Test01 ä¼˜åŒ–ä¸ºç›¸å¯¹è·¯å¾„

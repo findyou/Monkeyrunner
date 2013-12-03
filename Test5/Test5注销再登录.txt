@@ -1,17 +1,19 @@
-����:
-1.ע��
-2.�ٵ�¼
-3.�ҵ��˻���ID�������˻�
-4.�ҵ������ID����������
+﻿功能:
+1.注稍
+2.再登录
+3.找到账户框ID，输入账户
+4.找到密码框ID，输入密码
 
 
-֪ʶ��:
-1.EasyMonkeyDevice, By��Ҫ�ֻ�֧��HierarchyViewer
+知识点:
+1.EasyMonkeyDevice, By需要手机支持HierarchyViewer
 2.
 
 
-���⣺
-1.û�����쳣����
-2. �˺��еĵ� ��λ���ϱ�  you@d.emocn   you@dem.ocn
+问题：
+1.没有做异常处理
+2. 账号中的点 ，位置老变  you@d.emocn   you@dem.ocn
 
 
+Test5   第一个版本，写入了绝对路径
+Test05 优化为相对路径

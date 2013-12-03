@@ -1,20 +1,22 @@
-ǰ��������
-1.������ʾ��¼ҳ��������ҳ
-2.appδ��¼�������˳���¼
-3.appδ����
+﻿前提条件：
+1.启动显示登录页，非引导页
+2.app未登录，或已退出登录
+3.app未运行
 
-����:
-1.��¼
-2.�ҵ��˻���ID�������˻�
-3.�ҵ������ID����������
-
-
-֪ʶ��:
-1.EasyMonkeyDevice, By��Ҫ�ֻ�֧��HierarchyViewer
+功能:
+1.登录
+2.找到账户框ID，输入账户
+3.找到密码框ID，输入密码
 
 
-���⣺
-1.û�����쳣����
-2. �˺��еĵ� ��λ���ϱ�  you@d.emocn   you@dem.ocn
+知识点:
+1.EasyMonkeyDevice, By需要手机支持HierarchyViewer
 
+
+问题：
+1.没有做异常处理
+2. 账号中的点 ，位置老变  you@d.emocn   you@dem.ocn
+
+Test4   第一个版本，写入了绝对路径
+Test04 优化为相对路径
 

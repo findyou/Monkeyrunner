@@ -1,12 +1,15 @@
-¹¦ÄÜ:
-1.Æô¶¯app
+ï»¿åŠŸèƒ½:
+1.å¯åŠ¨app
 
-ÖªÊ¶µã: MonkeyDeviceÀà.startActivity(°üÃûºÍÆô¶¯Activity)
+çŸ¥è¯†ç‚¹: MonkeyDeviceç±».startActivity(åŒ…åå’Œå¯åŠ¨Activity)
 
 device = MonkeyRunner.waitForConnection()
 device.startActivity(component="cn.richinfo.thinkdrive/cn.richinfo.thinkdrive.ui.activities.NavigateActivity")
 
 
 
-ÎÊÌâ£º
-Ã»ÓĞ×öÒì³£´¦Àí
+é—®é¢˜ï¼š
+æ²¡æœ‰åšå¼‚å¸¸å¤„ç†
+
+Test2   ç¬¬ä¸€ä¸ªç‰ˆæœ¬ï¼Œå†™å…¥äº†ç»å¯¹è·¯å¾„
+Test02 ä¼˜åŒ–ä¸ºç›¸å¯¹è·¯å¾„
