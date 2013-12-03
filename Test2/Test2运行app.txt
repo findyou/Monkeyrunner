@@ -1,0 +1,12 @@
+功能:
+1.启动app
+
+知识点: MonkeyDevice类.startActivity(包名和启动Activity)
+
+device = MonkeyRunner.waitForConnection()
+device.startActivity(component="cn.richinfo.thinkdrive/cn.richinfo.thinkdrive.ui.activities.NavigateActivity")
+
+
+
+问题：
+没有做异常处理

@@ -1,0 +1,19 @@
+功能:
+1.卸载thinkdrive
+2.安装thinkdrive
+
+
+
+知识点: 
+1.导入需要的模块
+from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
+
+2.等待连接到设备，与模拟器连接，返回monkeydevice对象,代表连接的设备。没有报错的话说明连接成功
+默认连接：device = MonkeyRunner.waitForConnection()
+参数连接：device = MonkeyRunner.waitForConnection(1.0,'4df74b8734db307b')
+
+
+
+
+问题：
+没有做异常处理
