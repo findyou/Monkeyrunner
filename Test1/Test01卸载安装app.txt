@@ -19,5 +19,4 @@ from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
 没有做异常处理
 
 
-Test1   第一个版本，写入了绝对路径
 Test01 优化为相对路径

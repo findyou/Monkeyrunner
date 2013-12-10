@@ -1,6 +1,6 @@
 # File:   Takesnapshot.py
 # Vision: V1.0
-# Author: pengwanyou
+# Author: Findyou
 # Monkeyrunner TakeSnapshot.py
 # Imports the monkeyrunner modules used by this program 
 from com.android.monkeyrunner import MonkeyRunner

@@ -11,5 +11,4 @@ device.startActivity(component="cn.richinfo.thinkdrive/cn.richinfo.thinkdrive.ui
 问题：
 没有做异常处理
 
-Test2   第一个版本，写入了绝对路径
 Test02 优化为相对路径

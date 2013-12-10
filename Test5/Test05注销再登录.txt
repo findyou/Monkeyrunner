@@ -15,5 +15,4 @@
 2. 账号中的点 ，位置老变  you@d.emocn   you@dem.ocn
 
 
-Test5   第一个版本，写入了绝对路径
 Test05 优化为相对路径

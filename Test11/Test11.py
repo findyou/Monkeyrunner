@@ -1,15 +1,16 @@
-﻿# File:   Test11.py
-# Vision: V1.0
-# Author: pengwanyou
-# Time: 2013.11.18
+﻿# File:   Test011.py
+# Vision: V1.1
+# Author: Findyou
+# Time: 2013.12.03
 # Imports the monkeyrunner modules used by this program 
 from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
 from com.android.monkeyrunner.easy import EasyMonkeyDevice, By
-import time
+import time,sys
 
-
-# file path
-c_filepath = "E:/JAVA/monkeyrunner/Test11/Test11_"
+# Get the current path
+path = sys.path[0]
+path = path.replace('\\','/')
+path = path[path.rfind(":")-1:]
 
 # Connects to the current device, returning a MonkeyDevice object 
 device = MonkeyRunner.waitForConnection()
@@ -25,7 +26,7 @@ def take_Snapshot():
 	# Takes a screenshot 
 	result = device.takeSnapshot()
 	# Writes the screenshot to a file 
-	result.writeToFile(c_filepath + c_time + ".png",'png')
+	result.writeToFile(path + "/Test11_" + c_time + ".png",'png')
 
 def system_back():
 	# sleep 3's

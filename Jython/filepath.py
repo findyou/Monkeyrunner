@@ -1,6 +1,6 @@
 ﻿# File:   filepath.py
 # Vision: V1.0
-# Author: pengwanyou
+# Author: Findyou
 # Time: 2013.12.03
 # 引入模块
 import sys

@@ -1,6 +1,6 @@
 ﻿# File:   Test05.py
 # Vision: V1.1
-# Author: pengwanyou
+# Author: Findyou
 # Time: 2013.12.03
 # Imports the monkeyrunner modules used by this program 
 from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
